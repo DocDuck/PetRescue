@@ -1,0 +1,2 @@
+# requirements.txt
+fastapi[all]==0.42.0
