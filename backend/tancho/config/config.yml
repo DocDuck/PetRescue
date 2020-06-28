@@ -1,0 +1,12 @@
+# backend/tancho/config/config.yml
+fastapi:
+    debug: true
+  databases:
+    default:
+      ENGINE: 'mongodb'
+      DRIVER: 'motor'
+      NAME: 'my_db'
+      USER: 'admin'
+      PASSWORD: 'admin'
+      HOST: 'mongo'
+      PORT: '27017'
